@@ -2,83 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Yucen Han
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D
-      institution: Peking University
-      year: 2015/09 ~ 2020/06
-      description: "Ph.D Computational Mathematics, School of Mathematical Sciences, Peking University, Mentor: [Prof. Lei Zhang](http://faculty.bicmr.pku.edu.cn/~zhanglei/indexE.html)"
-    - title: B. S
-      institution: Jilin University
-      year: 2011/09 ~ 2015/07
-      description: B. S. in Computational Mathematics, School of Mathematical Sciences, Jilin University
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Associate
-      institution: University of Strathclyde, UK
-      year: 2022/11 ~ present
-      description: >
-        Mentor: <a href="https://pureportal.strath.ac.uk/en/persons/apala-majumdar">Prof. Apala Majumdar</a>
-    - title: Royal Society - Newton International Fellow
-      institution: University of Strathclyde, UK
-      year: 2020/11 ~ 2022/11
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
 
-- title: Research Fundings
-  type: list
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
   contents:
-    - Newton International Fellowship, Royal Society of UK, 2020/11~2022/10 <br>
-      New Analytical Perspectives and Computational Methods for Nematic Solution Landscapes, Yucen Han and Apala Majumdar
-    - Heilbronn Small Grant, 2022, Solution Landscapes for Cholesteric Liquid Crystals in Channel Geometries, Apala Majumdar, James Dalby, Yucen Han
-    - Heilbronn Small Grant, 2022, Shape and Topology Optimization Problems for Liquid Crystals, Yucen Han & Apala Majumdar
-
-- title: Publications
-  type: bib
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
-  type: list
+  type: time_table
   contents:
-    - Sir David Anderson Award of University of Strathclyde, 2023
-    - The Royal Society - Newton International Fellowship, UK, 2020
-    - Outstanding Graduates Award of Peking University, 2020
-    - National Scholarship for Graduate Students in China, 2019
-    - Lee Wai Wing Scholarship of Peking University, 2018
-    - Wang Rouhuai Scholarship of Jilin University, 2014
-    - Outstanding Undergraduates Award of Jilin University, 2014
+    - year: 1921
+      items: 
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
-- title: Talks and Presentations
-  type: list
-  contents:
-    - A3 Foresight Program workshop “Modeling and Simulation of Hierarchical and Heterogeneous Flow Systems with Applications to Materials Science III”, Sendai, Japan, November 14-16, 2016. (Poster)
-    - Young Mathematician Forum of CSIAM 15th Annual Meeting, Qingdao, China, October 12-15, 2017. (Talk & Poster)
-    - Tianyuan Center Summer School, Jilin University, Changchun, China, July 13-23, 2018. (Talk)
-    - Forum of Center for Quantitative Biology, Beijing, China, January 14, 2020. (Talk)
-    - Continuum Mechanics and Industrial Mathematics Seminar, online, March 9, 2021. (Talk)
-    - SIAM Mathematical Aspects of Materials Science, online, May 26, 2021. (Talk)
-    - Strathclyde Liquid Crystal Reading Group, online, October 26, 2021. (Talk)
-    - SFC GCRF-funded virtual networking workshop, January, 24, 2022. (Talk)
-    - Topology and Shape Optimisation for Confined Nematic Liquid Crystal Systems workshop, March 30, 2022, Oxford. (Talk)
-    - Annual Conference of the British Liquid Crystal Society on April 11th, 2022, Bristol. (Talk)
-    - 28th International Liquid Crystal Conference, July 24-29, 2022, Lisbon, Portugal. (Talk)
-    - RSE Network Meeting, November 2-3 2022, Glasgow. (Talk)
-    - Retreat for Women in Applied Mathematics, Jan 09-13, 2023, ICMS, Edinburgh. (Poster)
-    - An invited talk at the Chinese Academy of Sciences, March 10 2023
-
-- title: Service
+- title: Academic Interests
   type: nested_list
   contents:
-    - title: Journal Reviewer
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - Computational and Applied Mathematics
-        - Mathematics and Mechanics of Solids
-        - Partial Differential Equations and Applications
-        - Computational Methods in Applied Mathematics
-        - The IMA Journal of Applied Mathematics
-    - title: Supervision
-      items:
-        - Second supervisor of PhD student Chuanchen Wei at University of Strathclyde
+        - Description 1.
+        - Description 2.
 
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
